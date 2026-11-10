@@ -1,0 +1,3 @@
+# Only third-party dependency. The HTTP layer falls back to urllib (stdlib)
+# when requests cannot be imported, so the agent has no hard dependencies.
+requests>=2.31
